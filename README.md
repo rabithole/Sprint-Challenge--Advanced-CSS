@@ -33,20 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+
   a.	Adaptive design layouts are target for specific screen sizes. 
   b.	Responsive design uses adaptive techniques as well as fluid design techniques to accommodate screen sizes not directly targeted. 
 
 2. Describe what it means to be mobile first vs desktop first.
+
   a.	Mobile first designs use min-width media queries and target the mobile experience primarily. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
   a.	This makes the ratios for font sizes more manageable when using rem. It sets 1rem = 10px and 1.2rem = 12px and so on. 
 
 4. How would you describe preprocessing to someone new to CSS?
+
   a.	Preprocessing makes managing larger projects much easier with the use of variables and some logical functions such as mixins and more. 
   b.	CSS can be made more human readable. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
   a.	My favorite concept is variables. Their use is simple and powerful, especially when working on large projects. 
   b.	Escaping. While I can use and understand it’s use, I don’t yet see how it makes CSS code more readable. It was nice to be able to nest the query into the element that it will affect. Although I still like the organization methods for CSS I have used in the past. I know that will likely change as I collaborate and work on larger projects. 
 
