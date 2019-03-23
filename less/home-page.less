@@ -29,6 +29,19 @@
       border-radius: 20px;
       height: 100%;
     }
+
+    @media @phone {
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+
+      .blast {
+        width: 95%;
+      }
+    }
   }
 
   .visit-planets {
@@ -50,8 +63,20 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      display: flex;
+      flex-direction: column; 
+      padding: 0;
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @phone {
+        order: 2;
+        width: 100%;
+        padding: 2%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -64,21 +89,38 @@
       .btn {
         button { // Arguement order. color, background-color, font-size, border-radius.
           .button(white, black, 1.8rem, 7px);
-        }
 
-        &:hover {
-            
+          &:hover {
+            .hover(white, black)
+          }
+
+          @media @phone {
+            width: 100%;
+          }
         }
+      }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      display: flex;
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          width: 95%;
+          margin-bottom: 2%;
+        }
+      }
+
+      @media @phone {
+        width: 100%;
+        order: 1;
+        margin-left: 2%;
       }
     }
   }
