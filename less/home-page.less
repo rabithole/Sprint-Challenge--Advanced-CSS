@@ -11,6 +11,10 @@
     p {
       padding:0 15px;
     }
+
+    img {
+      border-radius: 5px;
+    }
   
   }
 
@@ -58,7 +62,13 @@
       }
 
       .btn {
-      }
+        button { // Arguement order. color, background-color, font-size, border-radius.
+          .button(white, black, 1.8rem, 7px);
+        }
+
+        &:hover {
+            
+        }
     }
 
     .walk-img {
