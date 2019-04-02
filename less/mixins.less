@@ -1,1 +1,25 @@
 // Mixins Here
+
+.flex-column-nav(){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lighten-grey(@perc) {
+	background-color: lighten(grey, @perc);
+}
+
+.button(@color, @bkCo, @foSi, @boRa) {
+	padding: 2% 5%;
+	color: @color;
+	background-color: @bkCo;
+	font-size: @foSi;
+	border-radius: @boRa;
+}
+
+.hover(@bgColor, @color) {
+	background-color: @bgColor;
+  	color: @color;
+}
